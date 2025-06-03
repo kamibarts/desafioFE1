@@ -17,7 +17,7 @@ document.getElementById('loginBtn').addEventListener('click', function() {
     
    
     if (emailInput === secretCredentials.email && passwordInput === secretCredentials.password) {
-        // Redirecionando para a página home.html se as credenciais estiverem corretas
+ 
         window.location.href = "home.html";
     } else {
        
